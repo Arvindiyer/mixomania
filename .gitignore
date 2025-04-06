@@ -1,0 +1,9 @@
+# Hugo default output directory
+/public
+public.tar.gz
+
+.hugo_build.lock
+
+resources/_gen/
+# themes/anatole/
+

@@ -1,0 +1,16 @@
+/* Import Nova Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* Apply Nova Mono font globally */
+body {
+    font-family: 'Merriweather', 'Nova Mono' , monospace;
+}
+
+.sidebar__introduction-profileimage {
+    width: 200px;
+    height: 200px;
+}
+
+ a {
+    color: orange !important;
+  }

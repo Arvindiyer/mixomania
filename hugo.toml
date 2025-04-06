@@ -1,0 +1,115 @@
+baseURL = 'https://arvindkiyer.com/'
+languageCode = 'en-us'
+title = 'Mixomania'
+
+theme = "anatole"
+doNotLoadAnimations = true
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+
+[params]
+#title = "Mixomania"
+subtitle = "A blog about computational biology, cancer genomics and data-driven biology"
+author = "Arvind Iyer"
+profilePicture = "images/blog_logo.png"
+description = "Poems, neuronal thoughts, and slices of computational biology and cancer genomics."
+displayMode = "dark"
+disableTitleCapitalization = true
+disableArchiveTitleStyling  = true
+doNotLoadAnimations = true
+copyright = "Arvind Iyer 2013-{{ YEAR }}"
+contact = true
+rssFullContent = true
+postSectionName = "blog"
+mainSections = ["post"]
+contentratio = 0.7
+relatedPosts = true
+numberOfRelatedPosts = 3
+customCss = ["css/custom.css"]
+#sidesidebar = true
+rssLimit = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe=true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Code on GitHub"
+url = "https://github.com/arvindiyer"
+
+[[params.socialIcons]]
+icon = "fab fa-bluesky"
+title = "Bluesky"
+url = "https://bsky.app/profile/arvind-k-iyer.bsky.social"
+
+
+[[params.socialIcons]]
+icon = "fa-brands fa-linkedin-in"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/arvindiyer1994"
+
+[[params.socialIcons]]
+icon = "fa-brands fa-x-twitter"
+title = "Twitter"
+url = "https://twitter.com/arvind_k_Iyer"
+
+[[params.socialIcons]]
+icon = "fa-solid fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "https://arvindkiyer.com/contact/"
+
+  [[menu.main]]
+
+
+[permalinks]
+  blog = '/:year/:month/:day/:slug/'
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "RSS"]  # This applies to all sections like blog, software, etc.
+  page = ["HTML"]
+
+
+[caches.images]
+  dir = ':cacheDir/images'
