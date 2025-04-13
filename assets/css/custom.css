@@ -73,12 +73,12 @@ font-size: 0.8em; /* Smaller font size for the count */
 color: inherit; /* Inherit the text color */
 }
 
-.category[href="/categories/poem/"] {
+.category[href="/mixomania/categories/poem/"] {
     background-color: #87CEEB; /* Soft pastel blue */
     color: #1E3A5F !important; /* Dark blue text for contrast */
 }
 
-.category[href="/categories/biocodetalks/"] {
+.category[href="/mixomania/categories/biocodetalks/"] {
     background-color: #98FB98 ; /* Soft pastel green */
     color: #1E4D3A !important; /* Dark green text for contrast */
 }
