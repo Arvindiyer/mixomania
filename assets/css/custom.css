@@ -12,5 +12,79 @@ body {
 }
 
  a {
-    color: orange !important;
+    color: #FFD700 !important;
   }
+
+/* Style the sidebar */
+/* Center alignment for the tags and categories sections */
+.sidebar__tags,
+.sidebar__categories {
+  text-align: center;
+  /* margin: 20px 0; */
+}
+
+.sidebar__tags h3,
+.sidebar__categories h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Tag Cloud Styling */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.tag-cloud-item {
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Category List Styling */
+.category-list {
+  padding: 0;
+  list-style: none;
+}
+
+/* Category Item Styling */
+.category {
+  display: inline-block; /* Ensure categories are inline elements */
+  margin: 5px 10px; /* Add spacing between categories */
+  padding: 5px 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Keep the rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 0.9em; /* Ensure consistent font size */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+  
+.category:hover {
+filter: brightness(0.95); /* Slightly darken on hover */
+}
+
+.category-count {
+font-size: 0.8em; /* Smaller font size for the count */
+color: inherit; /* Inherit the text color */
+}
+
+.category[href="/categories/poem/"] {
+    background-color: #87CEEB; /* Soft pastel blue */
+    color: #1E3A5F !important; /* Dark blue text for contrast */
+}
+
+.category[href="/categories/biocodetalks/"] {
+    background-color: #98FB98 ; /* Soft pastel green */
+    color: #1E4D3A !important; /* Dark green text for contrast */
+}
+
+.sidebar__categories {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}

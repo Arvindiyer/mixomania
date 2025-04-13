@@ -2,7 +2,7 @@
 date = '2025-04-07T02:49:40+05:30'
 draft = false
 title = '🚀 Welcome to BioCodeTalks'
-categories = ['bioinformatics', 'computational biology','biocodetalks'] 
+categories = ['biocodetalks'] 
 description = 'A blog about bioinformatics and computational biology'
 author = 'Arvind Iyer'
 tags = ['bioinformatics', 'computational biology','biocodetalks']

@@ -19,7 +19,7 @@ subtitle = "A blog about computational biology, cancer genomics and data-driven 
 author = "Arvind Iyer"
 profilePicture = "images/blog_logo.png"
 description = "Poems, neuronal thoughts, and slices of computational biology and cancer genomics."
-displayMode = "dark"
+displayMode = "light"
 disableTitleCapitalization = true
 disableArchiveTitleStyling  = true
 doNotLoadAnimations = true
@@ -34,6 +34,7 @@ numberOfRelatedPosts = 3
 customCss = ["css/custom.css"]
 #sidesidebar = true
 rssLimit = 20
+sidebarCategories = true
 
 [markup]
   [markup.goldmark]
@@ -69,9 +70,14 @@ title = "Twitter"
 url = "https://twitter.com/arvind_k_Iyer"
 
 [[params.socialIcons]]
+icon = "fa-brands fa-youtube"
+title = "Youtube"
+url = "https://www.youtube.com/@BioCodeTalks"
+
+[[params.socialIcons]]
 icon = "fa-solid fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:ayalurarvind@example.com"
 
 [menu]
 

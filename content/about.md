@@ -1,7 +1,7 @@
 +++
 date = '2025-04-06T00:00:00+05:30'
 draft = false
-title = 'About'
+#title = 'About'
 description = 'A bit about Mixomania Blog by Arvind Iyer'
 author = 'Arvind Iyer'
 tags = ['about', 'blog']
