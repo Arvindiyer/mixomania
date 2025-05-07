@@ -7,7 +7,7 @@ description = 'A Poem on Memory, Loss, and Weathered Selves'
 author = 'Arvind Iyer'
 tags = ['poem', 'memory', 'loss', 'self-discovery']
 type = 'post'
-subscription = true
+#subscription = true
 like = true
 thumbnail= "images/storm.png"
 +++

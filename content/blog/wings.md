@@ -7,6 +7,8 @@ description = 'A poem by Arvind Iyer'
 author = 'Arvind Iyer'
 tags = ['poem', 'life', 'trust','thumbnail']
 type = 'post'
+#subscription = true
+like = true
 thumbnail= "images/wings_trust.jpeg"
 +++
 

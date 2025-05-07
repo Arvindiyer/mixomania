@@ -7,6 +7,8 @@ description = 'A poetic meditation on memory, presence, and the art of letting g
 author = 'Arvind Iyer'
 tags = ['mindfulness', 'reflections', 'self-discovery']
 type = 'post'
+#subscription = true
+like = true
 thumbnail= "images/echoes_present.png"
 +++
 

@@ -7,6 +7,8 @@ description = 'A random thought article written in 2014 when I was 20'
 author = 'Arvind Iyer'
 tags = ['personal', 'life', 'thoughts']
 type = 'post'
+#subscription = true
+like = true
 thumbnail= "images/life_20.jpg"
 +++
 
