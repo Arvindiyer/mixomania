@@ -7,6 +7,8 @@ description = 'A blog about bioinformatics and computational biology'
 author = 'Arvind Iyer'
 tags = ['bioinformatics', 'computational biology','biocodetalks']
 type = 'post'
+subscription = true
+like = true
 thumbnail= "images/biocodetalks.jpg"
 +++
 

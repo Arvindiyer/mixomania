@@ -7,6 +7,7 @@ description = 'A emotional exploration of unspoken expectations in friendships a
 author = 'Arvind Iyer'
 tags = ['mindfulness', 'reflections', 'self-discovery']
 type = 'post'
+like = true
 +++
 
 
