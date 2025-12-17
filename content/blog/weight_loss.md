@@ -7,9 +7,9 @@ description = 'My Weight Loss Journey So Far...'
 author = 'Arvind Iyer'
 tags = ['personal', 'memory', 'weight_loss', 'self-discovery']
 type = 'post'
-subscription = true
+#subscription = true
 like = true
-"thumbnail= "/images/weight_loss.png"
+thumbnail= "/images/weight_loss.png"
 +++
 
 ## My Weight Loss Journey: <span style="color:#FF5733">Discipline Over Motivation 💪</span>
