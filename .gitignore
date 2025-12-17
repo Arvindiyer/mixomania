@@ -7,3 +7,20 @@ public.tar.gz
 resources/_gen/
 # themes/anatole/
 
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+node_modules/
+dist/
+.cache/
+.env
+.env.local
+.env.*.local
