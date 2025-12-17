@@ -9,7 +9,7 @@ tags = ['personal', 'memory', 'weight_loss', 'self-discovery']
 type = 'post'
 subscription = true
 like = true
-thumbnail= "images/weight_loss.png"
+"thumbnail= "/images/weight_loss.png"
 +++
 
 ## My Weight Loss Journey: <span style="color:#FF5733">Discipline Over Motivation 💪</span>
@@ -22,7 +22,7 @@ So I decided to treat this as a <span style="color:#28B463; font-weight:bold;">p
 
 Below is the vision board and the plan I used to turn that wake‑up call into sustainable progress.
 
-<img src="/images/life_goal_25.png" alt="Weight loss" height="300">
+<img src="/mixomania/images/life_goal_25.png" alt="Weight loss" height="300">
 
 <span style="color:#C70039; font-weight:bold;">Weight loss</span>, for me, was never about chasing an aesthetic goal or following a trendy routine. It became a deliberate decision to <span style="color:#FF5733; font-weight:bold;">rebuild discipline</span>, <span style="color:#28B463; font-weight:bold;">regain physical confidence</span>, and <span style="color:#2E86C1; font-weight:bold;">stabilize my mental health</span> after a long and mentally demanding academic phase.  
 
@@ -68,7 +68,7 @@ Over time, the pool taught me three practical skills that carried over into the 
 
 I’m especially glad I had a **partner in crime** for this venture: the newest member of my family, aka my sister-in-law, aka my sister 😄❤️  
 
-<img src="/images/me_didu_swimg.jpg" alt="Weight loss" height="300">
+<img src="/mixomania/images/me_didu_swimg.jpg" alt="Weight loss" height="300">
 
 ---
 
@@ -108,7 +108,7 @@ As of now, I weigh approximately **<span style="color:#C70039">86 kg</span>**, d
 * 🧠 Mental clarity during work has improved noticeably  
 
 Weight loss became a **side effect** of a healthier system, not the sole objective.
-<img src="/images/weight_loss_graph.png" alt="Weight loss" height="300">
+<img src="/mixomania/images/weight_loss_graph.png" alt="Weight loss" height="300">
 
 ---
 
@@ -122,7 +122,7 @@ Looking back, these were the non‑negotiables:
 4. <span style="color:#FFC300; font-weight:bold;">Fitness improves research productivity more than caffeine ever did</span>  
 
 My favorite pic of this journey—after hitting a personal best in a 5k run 🏃‍♂️  
-<img src="/images/me_5k.jpg" alt="Weight loss" height="300">
+<img src="/mixomania/images/me_5k.jpg" alt="Weight loss" height="300">
 
 ---
 
