@@ -12,7 +12,7 @@ body {
 }
 
  a {
-    color: #FFD700 !important;
+    color: #ec5e25d7 !important;
   }
 
 /* Style the sidebar */
@@ -80,6 +80,11 @@ color: inherit; /* Inherit the text color */
 
 .category[href="/mixomania/categories/biocodetalks/"] {
     background-color: #98FB98 ; /* Soft pastel green */
+    color: #1E4D3A !important; /* Dark green text for contrast */
+}
+
+.category[href="/mixomania/categories/pca/"] {
+    background-color: #e9fb98 ; /* Soft pastel green */
     color: #1E4D3A !important; /* Dark green text for contrast */
 }
 

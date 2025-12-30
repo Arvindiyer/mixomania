@@ -37,9 +37,8 @@ rssLimit = 20
 sidebarCategories = true
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe=true
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [taxonomies]
   category = "categories"
