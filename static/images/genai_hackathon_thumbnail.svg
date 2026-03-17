@@ -1,0 +1,77 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Learning to Build Again - GenAI Genesis Hackathon Thumbnail</title>
+  <desc id="desc">A colorful blog thumbnail showing a solo hacker/postdoc in a GenAI hackathon vibe with code, AI, and reflective energy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="45%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <circle cx="250" cy="170" r="140" fill="#22d3ee" opacity="0.18" filter="url(#blurGlow)"/>
+  <circle cx="1350" cy="160" r="180" fill="#f472b6" opacity="0.20" filter="url(#blurGlow)"/>
+  <circle cx="1320" cy="760" r="180" fill="#fde047" opacity="0.14" filter="url(#blurGlow)"/>
+
+  <g opacity="0.14" fill="#ffffff" font-family="monospace" font-size="26">
+    <text x="80" y="120">idea → code → test → fix → repeat</text>
+    <text x="1020" y="250">voice_ai = next_wave()</text>
+    <text x="1150" y="610">build_mode = TRUE</text>
+    <text x="90" y="820">&lt;/solo_hacker&gt;</text>
+  </g>
+
+  <rect x="70" y="85" rx="36" ry="36" width="1460" height="730" fill="url(#card)" stroke="rgba(255,255,255,0.18)" filter="url(#softShadow)"/>
+
+  <g transform="translate(120 170)">
+    <rect x="0" y="0" rx="22" ry="22" width="430" height="430" fill="#0b1220" opacity="0.82" stroke="#60a5fa" stroke-opacity="0.28"/>
+    <rect x="28" y="28" rx="14" ry="14" width="374" height="52" fill="#111827"/>
+    <circle cx="58" cy="54" r="8" fill="#fb7185"/>
+    <circle cx="84" cy="54" r="8" fill="#fde047"/>
+    <circle cx="110" cy="54" r="8" fill="#34d399"/>
+    <g font-family="monospace" font-size="24" fill="#cbd5e1">
+      <text x="35" y="125">&gt; init_hackathon()</text>
+      <text x="35" y="170" fill="#93c5fd">finding_team = False</text>
+      <text x="35" y="215" fill="#fca5a5">feeling = "old 😅"</text>
+      <text x="35" y="260" fill="#86efac">mode = "solo"</text>
+      <text x="35" y="305" fill="#f9a8d4">project = "MediMate"</text>
+      <text x="35" y="350" fill="#67e8f9">joy += building</text>
+      <text x="35" y="395">&gt; run(beginner_mind)</text>
+    </g>
+  </g>
+
+  <g transform="translate(610 150)">
+    <text x="0" y="0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#fef08a">Mixomania ✨</text>
+    <text x="0" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" fill="#ffffff">Learning to</text>
+    <text x="0" y="165" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="92" font-weight="900" fill="#ffffff">Build Again</text>
+    <rect x="0" y="195" width="520" height="10" rx="5" fill="url(#accent)"/>
+    <text x="0" y="270" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="600" fill="#dbeafe">Beginner's Mind in the GenAI Era 🤖🚀</text>
+
+    <g transform="translate(0 340)">
+      <rect x="0" y="0" rx="24" ry="24" width="770" height="180" fill="#0f172a" opacity="0.55" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="28" y="56" font-family="Georgia,Times New Roman,serif" font-size="34" font-style="italic" fill="#ffffff">“Sometimes you don't go to a hackathon to win.</text>
+      <text x="28" y="102" font-family="Georgia,Times New Roman,serif" font-size="34" font-style="italic" fill="#ffffff">You go to remember why building once felt magical.”</text>
+      <text x="28" y="144" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#fda4af">— A slightly older hacker with a beginner's mind 😄</text>
+    </g>
+  </g>
+
+  <g transform="translate(1240 680)">
+    <rect x="0" y="0" rx="20" ry="20" width="200" height="76" fill="#0f172a" opacity="0.75" stroke="#ffffff" stroke-opacity="0.15"/>
+    <text x="24" y="48" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800" fill="#ffffff">AI • Health • Heart</text>
+  </g>
+</svg>
